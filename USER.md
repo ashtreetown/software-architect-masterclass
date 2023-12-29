@@ -14,6 +14,9 @@
       1. Usernames should not be used in URLs because of duplicate username issues
       2. Usernames should not be used for login purposes because of duplicate username issues
       3. Usernames should not be used to trust a particular account because fake accounts may take advantage of it
+   3. Use decentralized alternatives to centralized "Forgot my password" services
+      1. Encrypted hardware
+      2. Secure third-party backup service
 
 3. Encryption
 
