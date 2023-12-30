@@ -23,6 +23,7 @@
 3. Logout
    1. Traditionally users logout by requesting that the service provider end their session but in future users will "eject" their "data container" which means that logging out will have the same impact as deleting their account and service providers will only be able to utilize their data while they're logged in
       1. In transactional situations, for example when a product is ordered and has to be delievered, the data will be kept by the service provider until the point of delivery or when the transaction is completed
+      2. For P2P data sharing situations such as sharing photos with family and friends, only encrypted data will be kept and distributed by the service provider
 
 5. Encryption
    1. Encryption should be designed to be upgraded continuously (with the introduction of AI, quantum computing, etc)
