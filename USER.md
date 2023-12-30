@@ -19,17 +19,21 @@
       1. Encrypted hardware
       2. Secure third-party backup service
          1. They may hold your key pair and "data container" but do so using end-to-end encryption
+        
+3. Logout
+   1. Traditionally users logout by requesting that the service provider end their session but in future users will "eject" their "data container" which means that logging out will have the same impact as deleting their account and service providers will only be able to utilize their data while they're logged in
+      1. In transactional situations, for example when a product is ordered and has to be delievered, the data will be kept by the service provider until the point of delivery or when the transaction is completed
 
-3. Encryption
+5. Encryption
    1. Encryption should be designed to be upgraded continuously (with the introduction of AI, quantum computing, etc)
    2. All service providers should have end-to-end encryption on all data
 	
-4. Data
+6. Data
    1. Data should be portable
       1. A user should be able to use the same "data container" for similar competing services but have the flexibility to have separate "data containers" too
       2. A user should be able to view and modify the data in their "data container" independently or with the help of a third-party service
 	
-5. Trust
+7. Trust
    1. Checkmarks from manual verification should not be used to build trust because it relies on centralized, biased, error-prone processors
    2. Paid verifications should not be used to build trust because it raises the bar of entry, maintains repetitive, stale voices and can compromise security
    3. Trustless systems are preferred where possible
